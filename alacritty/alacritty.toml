@@ -1,0 +1,33 @@
+[window]
+opacity = 0.9
+
+[font]
+normal = { family = "GeistMono Nerd Font", style = "Regular" }
+bold = { family = "GeistMono Nerd Font", style = "ExtraBold" }
+italic = { family = "GeistMono Nerd Font", style = "Italic" }
+bold_italic = { family = "GeistMono Nerd Font", style = "ExtraBold Italic" }
+size = 20.0
+
+[colors.primary]
+background = "#1e1e1e"
+foreground = "#e4e4e4"
+
+[colors.normal]
+black = "#1e1e1e"
+red = "#c47d62"
+green = "#a0b878"
+yellow = "#c8c067"
+blue = "#9d8fc2"
+magenta = "#ac8aa8"
+cyan = "#94b387"
+white = "#e4e4e4"
+
+[colors.bright]
+black = "#3c3c3c"
+red = "#d48a6e"
+green = "#adc584"
+yellow = "#d4cc73"
+blue = "#a99cce"
+magenta = "#b897b4"
+cyan = "#a0bf93"
+white = "#ffffff"

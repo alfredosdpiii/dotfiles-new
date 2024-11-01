@@ -1,0 +1,81 @@
+[ nu_plugin_inc<\n>  nu_plugin_polars<\n>  nu_plugin_gstat<\n>  nu_plugin_formats<\n>  nu_plugin_query<\n>] | each { cargo install $in } | ignore
+test
+ls
+cd .config
+ls
+cd nu
+ls
+cd nushell/
+ls
+nvim .
+python
+pip
+nvim .
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+atuin
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+clear
+zoxide init nushell | save -f ~/.zoxide.nu
+source ~/.zoxide.nu
+cd .config/nushell
+ls
+nvim .
+## ~/.config/nushell/env.nu<\n>$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu<\n><\n>#~/.config/nushell/config.nu<\n>source ~/.cache/carapace/init.nu<\n>
+nvim .
+clear
+cd .config
+cd nu
+cd nushell/
+ls
+nvim .
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu
+clear
+ls
+cd Projects
+ls
+cd AIR_AI_Engineering_Course_2024/
+ls
+jupyter lab
+ls
+cd .config
+cd 
+cd .config
+ls
+cd starship
+mkdir starship
+ls
+cd starship
+nvim starship.toml
+clear
+cd Projects/
+ls
+cd 0
+cd AIR_AI_Engineering_Course_2024/
+ls
+zoxide
+nvim .
+cd 
+cd .config/nushell/
+nvim .
+cd .config/nushell/
+nvim .
+cler
+cd .config/nushell/
+nvim .
+clear
+nvim .
+zoxide
+ls
+open history.txt
+clear
+ls
+open config.nu
+clear
+ls
+curl
+ls
+cd ../
+git init
+nvim .
+git remote add origin git@github.com:alfredosdpiii/dotfiles-new.git<\n>git branch -M main<\n>git push -u origin main
+git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:alfredosdpiii/dotfiles-new.git<\n>git push -u origin main

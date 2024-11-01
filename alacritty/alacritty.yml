@@ -1,0 +1,128 @@
+# Alacritty Configuration
+
+import: []
+
+live_config_reload: true
+
+shell:
+  program: /usr/bin/bash
+  # args:
+  #   - -l
+
+window:
+  startup_mode: Windowed
+  title: Alacritty
+  dynamic_title: true
+  decorations_theme_variant: None
+  decorations: Full
+  # opacity: 0.9
+  # blur: true
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: GeistMono Nerd Font
+    style: Regular
+  bold:
+    family: GeistMono Nerd Font
+    style: ExtraBold
+  italic:
+    family: GeistMono Nerd Font
+    style: Italic
+  bold_italic:
+    family: GeistMono Nerd Font
+    style: ExtraBold Italic
+  size: 20.0
+  builtin_box_drawing: true
+
+colors:
+  primary:
+    background: "#1e1e1e"
+    foreground: "#e4e4e4"
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  search:
+    matches:
+      foreground: "#181818"
+      background: "#ac4242"
+    focused_match:
+      foreground: "#181818"
+      background: "#f4bf75"
+  hints:
+    start:
+      foreground: "#181818"
+      background: "#f4bf75"
+    end:
+      foreground: "#181818"
+      background: "#ac4242"
+  normal:
+    black: "#1e1e1e"
+    red: "#c47d62"
+    green: "#a0b878"
+    yellow: "#c8c067"
+    blue: "#9d8fc2"
+    magenta: "#ac8aa8"
+    cyan: "#94b387"
+    white: "#e4e4e4"
+  bright:
+    black: "#3c3c3c"
+    red: "#d48a6e"
+    green: "#adc584"
+    yellow: "#d4cc73"
+    blue: "#a99cce"
+    magenta: "#b897b4"
+    cyan: "#a0bf93"
+    white: "#ffffff"
+  dim:
+    black: "#0f0f0f"
+    red: "#712b2b"
+    green: "#5f6f3a"
+    yellow: "#a17e4d"
+    blue: "#456877"
+    magenta: "#704d68"
+    cyan: "#4d7770"
+    white: "#8e8e8e"
+  indexed_colors:
+    - { index: 16, color: "#c1a154" }
+    - { index: 17, color: "#b9b180" }
+
+bell:
+  animation: Linear
+  duration: 0
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: false
+
+cursor:
+  style:
+    shape: Block
+    blinking: Off
+  vi_mode_style: None
+  unfocused_hollow: true
+  thickness: 0.15
+
+mouse:
+  hide_when_typing: false
+
+hints:
+  enabled:
+    - regex: "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+      hyperlinks: true
+      post_processing: true
+      persist: false
+      mouse:
+        enabled: true
+      binding:
+        key: U
+        mods: Control|Shift
+      command: xdg-open # For Linux/BSD. Use "open" for macOS or { program: "cmd", args: ["/c", "start", ""] } for Windows
+
+key_bindings:
+  - { key: N, mods: Control|Shift, action: CreateNewWindow }
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
