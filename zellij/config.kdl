@@ -202,6 +202,24 @@ plugins {
     }
 }
 
+themes {
+    custom {
+        fg "#e4e4e4"
+        bg "#1e1e1e"
+        black "#1e1e1e"
+        red "#c47d62"
+        green "#a0b878"
+        yellow "#c8c067"
+        blue "#9d8fc2"
+        magenta "#ac8aa8"
+        cyan "#94b387"
+        white "#e4e4e4"
+        orange "#c1a154"
+    }
+}
+
+theme "custom"
+
 // Choose what to do when zellij receives SIGTERM, SIGINT, SIGQUIT or SIGHUP
 // eg. when terminal window with an active zellij session is closed
 // Options:
