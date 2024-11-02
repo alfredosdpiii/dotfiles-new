@@ -79,3 +79,86 @@ git init
 nvim .
 git remote add origin git@github.com:alfredosdpiii/dotfiles-new.git<\n>git branch -M main<\n>git push -u origin main
 git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:alfredosdpiii/dotfiles-new.git<\n>git push -u origin main
+git add nushell
+nvim starship
+git add starship
+ls
+git add sioyek 
+git add alacritty
+nvim .
+git commit -m "added dotfiles"
+git push -u origin main
+ls
+cd 
+ls
+nvim .bashrc
+ls
+cd Projects/
+ls
+clear
+curl
+which nu
+echo $shell
+echo $SHELL
+echo env.$SHELL
+test
+starship
+starship session
+starship explain
+cd .config/nushell/
+nvim .
+curl 
+clear
+cd .config/nushell/
+nvim .
+ls
+open env.nu
+cat env.nu
+clear
+ls
+ls | sort-by size
+nvim .
+git r
+nvim .
+ls
+atuin
+atuin account
+atuin account login
+cd ../
+ls
+nvim .
+git add zellij
+git commit -m "added zellij config"
+git push
+nvim .
+exit
+zellij
+nvim .
+git add zellij
+git status
+git add alacritty
+git commit -m "customized colors"
+git push
+clear
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu
+mkdir ~/.cache/starship
+ls
+cd mise
+nvim 
+nvim .
+mise
+iexc
+iex
+node
+mise run node
+mise exec -- node -v
+cd
+nvim .bashrc
+mise
+iex
+mise exec -- iex
+ls
+cd .config/nushell/
+nvim .
+git add nushell
+cd ../
