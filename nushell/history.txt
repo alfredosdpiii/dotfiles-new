@@ -162,3 +162,56 @@ cd .config/nushell/
 nvim .
 git add nushell
 cd ../
+git add nushell
+git commit -m "standard path"
+git push
+ls
+cd
+cx
+cx Projects
+mise
+node
+nvim .
+ls
+cd .config/nushell/
+nvim .
+sudo apt install zstd
+tar xaf Downloads/anki-2XXX-linux-qt6.tar.zst<\n>cd anki-2XXX-linux-qt6<\n>sudo ./install.sh<\n>
+tar xaf ./anki-2XXX-linux-qt6.tar.zst<\n>cd anki-2XXX-linux-qt6<\n>sudo ./install.sh
+tar xaf anki-2XXX-linux-qt6.tar.zst<\n>cd anki-2XXX-linux-qt6<\n>sudo ./install.sh
+ls
+tar xaf anki-24.06.03-linux-qt6.tar.zst<\n>cd anki-24.06.03-linux-qt6<\n>sudo ./install.sh
+tar xaf ./anki-24.06.03-linux-qt6.tar.zst<\n>cd anki-24.06.03-linux-qt6<\n>sudo ./install.sh
+ls
+tar xaf ./anki-24.06.3-linux-qt6.tar.zst<\n>cd anki-24.06.03-linux-qt6<\n>sudo ./install.sh
+ls
+cd anki-24.06.3-linux-qt6/
+ls
+sudo ./install.sh
+anki
+sudo apt install libxcb-xinerama0 libxcb-cursor0 libnss3<\n>
+cd Documents
+ls
+git clone git@github.com:alfredosdpiii/anki_science.git
+anki
+nvim .
+z nushell
+nvim .
+source .config.nu
+source ./config.nu
+nvim .
+source ./config.nu
+nvim .
+source ./config.nu
+nvim .
+source ./config.nu
+source ./env.nu
+source ./config.nu
+nvim .
+z nushell
+nvim .
+ls
+z nushell
+nvim .
+cd ../
+cx nushell
